@@ -10,11 +10,11 @@ body {
   display: inline-flex;
   margin: 20px 10px;
 }
-.cart-item .left-block{
+/* .cart-item .left-block{
   height: 200px;
   width: 200px;
   background-color:blue;
-}
+} */
 .cart-item .right-block {
   padding: 0 20px;
 }

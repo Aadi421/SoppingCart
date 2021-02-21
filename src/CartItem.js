@@ -7,17 +7,15 @@ class CartItem extends React.Component{
             <div className="cart-item">
 
                     <div className="left-block">
-                        <img src="" alt=""/ >  
+                        <img style={styles.image}/>  
                     </div>
                     <div className="right-block">
-                        <div>Title</div>
-                        <div>Rs</div>
-                        <div>Qty</div>
+                        <div style={{fontSize:25}}>Phone</div>
+                        <div style={{color:'#777'}}>Rs 999</div>
+                        <div style={{color:'#777'}}>Qty: 1</div>
                         <div className="cart-item-actions">
                           {/* Buttons */}
                         </div>
-                        
-                        
                     </div>
                
             </div>
@@ -25,6 +23,15 @@ class CartItem extends React.Component{
     }
 }
 
+// style done by using object in jsx
 
+const styles={
+    image:{
+        height:110,
+        width:110,
+        borderRadius:4,
+        backgroundColor:'#ccc'
+    }
+}
 
 export default CartItem;
